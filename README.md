@@ -11,12 +11,9 @@
 - [Instructions](#instructions)
 - [License](#license)
 
----
-
 ## Play
 [Click to Play The Game](https://gursimar04.github.io/IWP-Assignments/Assignment-1/)
 
----
 
 ## Authors
 - Gursimar Singh Bedi-18BCE10105
@@ -25,7 +22,6 @@
 - Abhinnav Menon-18BCE10006
 - Pratyush Sethi-18BCE10314
 
----
 
 ## Description
 Every programmer frequently uses RGB values to add colours to their prjects, but heavily depend on colour pickers. This mini-game put's ones RGB abilities to the test by challenging them at three difficulty levels and asking them to select the correct color in accordance with the RGB value. 
@@ -36,8 +32,6 @@ Every programmer frequently uses RGB values to add colours to their prjects, but
 - CSS
 - JavaScript
 
----
-
 ## Instructions
 An RGB value can be found in the title. The objective is to select the alternative which has the same colour as the RGB value.
 
@@ -47,7 +41,6 @@ An RGB value can be found in the title. The objective is to select the alternati
 - **Hard**- The user has to choose from 6 alternatives, 5 of which are completely random.
 - **Extreme**- The user has to choose from 6 alternatives. The R, G ,and B values of the incorrect alternatives are in very close to the correct option.(-50 to -20 and +20 to +50)
 
----
 ## License
 MIT License
 
