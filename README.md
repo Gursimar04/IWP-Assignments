@@ -6,7 +6,7 @@
 
 ### Table Of Contents
 - [Play](#play)
-- [Author Info](#author-info)
+- [Authors](#author)
 - [Description](#description)
 - [Instructions](#instructions)
 - [License](#license)
@@ -63,4 +63,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 
-[Back to the top](#RGBGuessingGame)
+[Back to the top](#IWP-Assignments)
