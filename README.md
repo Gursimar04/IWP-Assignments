@@ -1,6 +1,6 @@
 # IWP-Assignments
 >A Mini-game devloped with an objective of finding the colour matching to the random RGB values generated.
-<img src="image/gamepic.JPG" width=350>
+<img src="Assignment-1/image/gamepic.JPG" width=350>
 
 ---
 
@@ -14,7 +14,7 @@
 ---
 
 ## Play
-[Click to Play The Game](https://gursimar04.github.io/RGBGuessingGame/)
+[Click to Play The Game](https://gursimar04.github.io/IWP-Assignments/Assignment-1/)
 
 ---
 
