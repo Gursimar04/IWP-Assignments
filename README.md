@@ -6,15 +6,24 @@
 
 ### Table Of Contents
 - [Play](#play)
+- [Author Info](#author-info)
 - [Description](#description)
 - [Instructions](#instructions)
 - [License](#license)
-- [Author Info](#author-info)
 
 ---
 
 ## Play
 [Click to Play The Game](https://gursimar04.github.io/IWP-Assignments/Assignment-1/)
+
+---
+
+## Authors
+- Gursimar Singh Bedi-18BCE10105
+- Bhuvnesh Birla-18BCE10079
+- Aryan G-18BCE10062
+- Abhinnav Menon-18BCE10006
+- Pratyush Sethi-18BCE10314
 
 ---
 
@@ -52,11 +61,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ---
 
-## Authors
-- Gursimar Singh Bedi-18BCE10105
-- Bhuvnesh Birla-18BCE10079
-- Aryan G-18BCE10062
-- Abhinnav Menon-18BCE10006
-- Pratyush Sethi-18BCE10314
+
 
 [Back to the top](#RGBGuessingGame)
