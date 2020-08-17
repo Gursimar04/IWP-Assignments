@@ -6,7 +6,7 @@
 
 ### Table Of Contents
 - [Play](#play)
-- [Authors](#author)
+- [Authors](#authors)
 - [Description](#description)
 - [Instructions](#instructions)
 - [License](#license)
