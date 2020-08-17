@@ -1,0 +1,103 @@
+body{
+	background-color: #232323; 
+	margin: 0px;
+	font-family: "Montserrat","Avenir";
+}
+
+.option {
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin:1.66%;
+	border-radius: 12%;
+	transition: background 0.7s;
+	--webkit-transition: background 0.7s;
+	-moz-transition: background 0.7s;
+}
+
+#container{
+	margin: 20px auto;
+	max-width: 600px;
+}
+
+h1{
+	color: white;
+	font-weight: normal;
+	line-height: 1.1;
+	padding: 20px 0px;
+	text-align: center;
+	background: steelblue;
+	margin: 0px;
+	text-transform: uppercase;
+}
+
+#result{
+	display: inline-block;
+	width: 15%;
+	text-transform: uppercase;
+}
+
+#liv{
+	display: inline-block;
+	width: 5%;
+	margin-left: 15px;
+	font-size: 19px;
+}
+
+#sc{
+	display: inline-block;
+	width: 5%;
+	margin-right: 15px;
+	font-size: 19px;
+}
+
+
+button{
+	border:none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.6s;
+	--webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+	outline: none;
+	margin-right: 2px;
+}
+
+.re{
+	color: #e84a4a;
+}
+.re:hover{
+	color: white;
+	background: #58e095;
+}
+
+#textStripe{
+	background-color: white;
+	height:30px;
+	text-align: center;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+}
+
+.levelSelect{
+	color:white;
+	background: steelblue;
+	border:none;
+}
+
+#rgbCol{
+	font-size: 200%;
+}
+
+button:hover{
+	color:white;
+	background: steelblue;
+}
