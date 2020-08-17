@@ -52,7 +52,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ---
 
-## Author Info
-- Linkedin - [Gursimar Singh Bedi](https://www.linkedin.com/in/gursimar-singh-bedi-31439a170)
+## Authors
+- Gursimar Singh Bedi-18BCE10105
+- Bhuvnesh Birla-18BCE10079
+- Aryan G-18BCE10062
+- Abhinnav Menon-18BCE10006
+- Pratyush Sethi-18BCE10314
 
 [Back to the top](#RGBGuessingGame)
