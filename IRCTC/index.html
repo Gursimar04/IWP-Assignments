@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+
+    <title>IRCTC</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/a24945b291.js" crossorigin="anonymous"></script>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"> </script>
+</head>
+
+<body>
+    <div class="flud-container bg-white">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <a class="navbar-brand" href="#" style="overflow: hidden;">
+                                <img class="imglogo" src="https://www.pngkit.com/png/detail/893-8933504_rail-ticket-booking-irctc-logo-in-png.png">
+                            </a>
+                            <span class="logo">irctc</span>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="	#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon" id="navt"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item active" style="margin-right:30px;">
+                                        <a class="nav-link" href="#">Book & Enquire<span
+                                                class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#" style="margin-right:60px;">Trains</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#" style="margin-right:60px;">Services</a>
+                                    </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                                aria-haspopup="true" aria-expanded="false">
+                                                More
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item" href="#">Something else here</a>
+                                            </div>
+                                        </li>
+                                </ul>
+
+                                <ul class="navbar-nav justify-content-end mr-2">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#" style="background-color:#3d91f8; width:80px;color:white;text-align: center; margin-right: 5px;">Sign-in</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+        </div>
+        <div class="pla">
+            <div class="formcontainer">
+                <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 title">
+                        Book Your Ticket
+                    </div>
+                    <div style="margin-top:-70px">
+                    <img src="https://svgsilh.com/svg/910620.svg" style="margin-top:1px" alt="none" />
+                    </div>
+                    <div class="col-sm-12">
+                    <div class="formGroup" style="margin-top:-12px">
+                        <label class="label" htmlFor="usernameOrEmail">
+                            FROM
+                        </label>
+                        <label class="label" id="labelTo" htmlFor="password">
+                            TO
+                        </label><br>
+                            <input class="inputFirst" id="emailAddress" type="text" placeholder="Username" name="emailAddress"
+                                autoFocus // eslint-disable-line jsx-a11y/no-autofocus
+                            />
+                        <i class="fas fa-exchange-alt"></i>
+                            <input class="inputFirst" id="password" type="password" placeholder="Password" name="password"
+                            />
+                        </div>  
+                    </div>
+                    <div class="col-sm-6">
+                        <label class="label" htmlFor="password">
+                            DATE
+                        </label><br>
+                        <input class="input" id="date" type="date" placeholder="MM/DD/YYYY" name="date" />
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="formGroup">
+                        <br><br>
+                        <input class="label" id="Flexible" type="checkbox" name="Flexible" >
+                        <label for="Flexible" style="font-size:18px;"> Flexible Date</label>
+                        </input>
+                        </div>
+                    </div>
+                    <div class="col-sm-9">
+                        <!-- <img src={loginImg} alt="none" /> -->
+                        <div class="formGroup">
+                            <label class="label" htmlFor="quota">
+                                QUOTA
+                            </label>
+                            <label class="label" id="labelCon" htmlFor="concession">
+                                CONCESSION
+                            </label><br>
+                            <select class="input" id="quota"  placeholder="Quota" name="quota"style="width:46%;">
+                            </select>
+                            <select class="input" id="concession" placeholder="Concession" name="concession" style="width:46%;margin-left:14px;" >
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-3">
+                    <div class="formGroup">
+                        <button class="button" style="width:200px">
+                            Search Trains
+                        </button>
+                    </div> 
+                </div> 
+                </div>
+
+                </div>
+            </div>             
+
+        <div class="col-sm-6">
+            <div class="square"></div>
+        </div>
+       </div>
+
+
+       
+        <div class="container-fluid">
+        <div class="bg-light"
+            style="padding: 0px 0px 20px 125px; margin-left:-30px; margin-bottom:100px; width: 90%; border-radius:40px;">
+            <div class="pla" style="height:100px; margin-bottom: 100px;">
+                    <div class="row">
+                        <div class="col-sm-12 title" style="padding-left:3%;">
+                            Find My Train
+                        </div>
+                        <div class="col-sm-6">
+                            <!-- <img src={loginImg} alt="none" /> -->
+                            <div class="formGroup row">
+                                <div class="col-sm-12">
+                                    <label class="label" htmlFor="TrainNameorCode" style="padding-left:4%;">
+                                        Train Name/Code
+                                    </label>
+                                    <label class="label" id="label" htmlFor="Departuredate" style="margin-left:20%;">
+                                        Departure Date
+                                    </label>
+                                </div>
+                                <div class="col-sm-5" style="padding-left:6%;">
+                                    <input class="input" id="TrainNameorCode" type="text" placeholder="TrainNameorCode"
+                                        name="TrainNameorCode" />
+                                </div>
+                                <div class="col-sm-5">
+                                    <input class="input" id="Departuredate" type="date" placeholder="MM/DD/YYYY"
+                                        name="Departuredate" />
+                                </div>
+                                <div class="col-sm-2">
+                                    <button type="button" class="btn btn-outline-primary" style="margin-top:2px;"> Find </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <!-- <img src={loginImg} alt="none" /> -->
+                            <div class="formGroup row">
+                                <div class="col-sm-12">
+                                    <label class="label" htmlFor="PNR" style="margin-left:26%;">
+                                        Enter your 10 digit PNR number
+                                    </label>
+                                </div>
+                                <div class="col-sm-3"></div>
+                                <div class="col-sm-6">
+                                    <input class="input" id="PNR" type="text" placeholder="PNR" name="PNR" style="width:100%;" />
+                                </div>
+                                <div class="col-sm-2">
+                                    <button type="button" class="btn btn-outline-primary" style="margin-top:2px;"> Enquire </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+            <!-- <div class="d-flex">
+                <span class="mr-3" style="font-family:'Roboto', sans-serif;color:black;font-size:60px;font-weight:400;">
+                    Holidays
+                </span>
+                <form style="padding-top: 30px; padding-right: 5px">
+                    <div class="form-group">
+                        <input type="search" class="form-control bg-light" id="exampleFormControlInput1" placeholder="Search">
+                    </div>
+                </form>
+                <i class="fas fa-search bg-light rounded-circle" style="margin-top: 32px; padding:8px 8px; height: 150%"></i>
+            </div> -->
+        
+        </div>
+        
+
+        <div class="holidays">
+            <div class="title">Indian Raiways</div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eligendi modi non iure repellat quaerat dolore illo velit quia, soluta laudantium laboriosam accusantium vel ex ducimus, provident aliquam atque culpa!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor praesentium, natus veritatis vitae placeat, neque minus aperiam, veniam provident sint consectetur aliquam mollitia amet quod id doloribus laborum quasi excepturi?
+            </p>
+            
+            <button type="button" class="btn moveRight" style="font-size:1.5rem;">
+                <i class="fas fa-chevron-circle-right"></i>
+            </button>
+            <button type="button" class="btn moveLeft"  style="font-size:1.5rem;">
+                <i class="fas fa-chevron-circle-left"></i>
+            </button>
+                    <div class="container cardGriddiv">
+                        <div class="d-flex flex-row mb-3 noScroll overflow-hidden">
+                            <div class="p-2">
+                                <div class="card mb-4 box-shadow" style="width: 250px; height: 300px; display: block">
+                                    <div class="overlay rounded-circle bg-white text-center" style="height: 52px;width: 52px;">
+                                        <i class="fas fa-plane-departure" style="height: 40px;width: 40px; margin-top:19px;"></i>
+                                    </div>
+                                
+                                    <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                        alt="Thumbnail [100%x225]" style="height: 50%; width: 100%; display: block;"
+                                        src="https://www.irctc.co.in/nget/assets/images/Thailand.jpg" data-holder-rendered="true">
+                                
+                                    <div class="card-body text-center text-white" style="background: #3a3838; height:50%">
+                                        <h5 class="card-title">International Packages</h5>
+                                        <p class="card-text">Thailand</p>
+                                        <a class="text-white" href="#">More Info</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="p-2">
+                                <div class="card mb-4 box-shadow" style="width: 250px; height: 300px; display: block">
+                                    <div class="overlay rounded-circle bg-white text-center" style="height: 52px;width: 52px;">
+                                        <i class="fas fa-plane" style="height: 40px;width: 40px; margin-top:18px;"></i>
+                                    </div>
+                                    <img class="card-img-top dob"
+                                        data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                        alt="Thumbnail [100%x225]" style="height: 50%; width: 100%; display: block;"
+                                        src="https://www.irctc.co.in/nget/assets/images/Kashmir.jpg"
+                                        data-holder-rendered="true">
+                                    <div class="card-body text-center text-white" style="background: #4d4848; height:50%">
+                                        <h5 class="card-title">Domestic Air Packages</h5>
+                                
+                                        <p class="card-text">Kashmir</p>
+                                        <a class="text-white" href="#">More Info</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="p-2">
+                                <div class="card mb-4 box-shadow" style="width: 250px; height: 300px; display: block">
+                                    <div class="overlay rounded-circle bg-white text-center" style="height: 52px;width: 52px;">
+                                        <i class="fas fa-vihara" style="height: 40px;width: 40px; margin-top:18px;" ></i>
+                                    </div>
+                                
+                                    <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                        alt="Thumbnail [100%x225]" style="height: 50%; width: 100%; display: block;"
+                                        src="https://www.irctc.co.in/nget/assets/images/Buddha_Banner.jpg" data-holder-rendered="true">
+                                
+                                    <div class="card-body text-center text-white" style="background: #42142c; height:50%">
+                                        <h5 class="card-title">Buddhist Circuit Tourist Train</h5>
+                                        <p class="card-text">Mahaparinirvana sutra</p>
+                                        <a class="text-white" href="#">More Info</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-2">
+                                <div class="card mb-4 box-shadow" style="width: 250px; height: 300px; display: block">
+                                    <div class="overlay rounded-circle bg-white text-center" style="height: 52px;width: 52px;">
+                                        <i class="fas fa-tram" style="height: 40px;width: 40px; margin-top:18px;"></i>
+                                            
+                                    </div>
+                            
+                                    <img class="card-img-top"
+                                        data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                        alt="Thumbnail [100%x225]" style="height: 50%; width: 100%; display: block;"
+                                        src="https://www.irctc.co.in/nget/assets/images/Manali.jpg" data-holder-rendered="true">
+                            
+                                    <div class="card-body text-center text-white" style="background: #4d4848; height:50%">
+                                        <h5 class="card-title">Rail Tour Packages</h5>
+                                        <p class="card-text">Sight Seeing</p>
+                                        <a class="text-white" href="#">More Info</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+        </div>
+       
+
+            </script>
+</body>
+
+</html>
