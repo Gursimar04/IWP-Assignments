@@ -104,7 +104,7 @@ hr{
 }
 
 .animate{
-  width:960px;
+  width:60%;
   margin:0 auto;
   position:relative;
 }
@@ -113,7 +113,7 @@ hr{
 .div-image{
   position: absolute;
   top:190px;
-  left:625px;
+  left:585px;
   height:300px;
   width:40%;
   opacity:0;
