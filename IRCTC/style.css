@@ -316,14 +316,14 @@ hr{
 }
 .moveRight {
     position: absolute;
-    left:98%;
+    left:99%;
     top:320px;
     opacity: 0.6;
     background-color:rgba(227, 223, 223, 0.2);
 }
 .moveLeft {
     position: absolute;
-    left:-1.8%;
+    left:-1.5%;
     top:320px;
     background-color:rgba(227, 223, 223, 0.2);
     opacity: 0.6;
