@@ -89,7 +89,7 @@ hr{
 .pla {
   padding: 20px;
   height:0px;
-  margin-top:660px;
+  margin-top:20px;
 }
 
 .pla .formcontainer {
@@ -104,8 +104,9 @@ hr{
 }
 
 .animate{
-  width:60%;
+  width:93%;
   margin:0 auto;
+  height:100vh;
   position:relative;
 }
 
@@ -113,9 +114,9 @@ hr{
 .div-image{
   position: absolute;
   top:190px;
-  left:585px;
+  left:59.3%;
   height:300px;
-  width:40%;
+  width:25.7%;
   opacity:0;
 }
 
@@ -291,10 +292,10 @@ hr{
     position: relative;
 }
 .holidays .title{
-    font-size:35px;
+    font-size:2em;
     text-transform: capitalize;
     font-weight:500;
-    width: 50%;
+    width: 39%;
     margin:2% auto;
     margin-bottom:0;
 }
@@ -348,51 +349,52 @@ hr{
 .head-item:hover{
  text-decoration: underline;
 }
+/* 145px */
 .square{
   position:absolute;
-  width:145px;
-  height:155px;
-  top:192px;
-  right:345.5px;
+  width:10.5%; 
+  height:21.4%;
+  top:26.4%;
+  right:42%;
   background-color: rgb(255,215,0);
   border-radius: 10px;
   opacity:0;
 }
 .pic1{
   position:absolute;
-  width:135px;
-  height:155px;
-  top:192px;
-  right:350.5px;
+  width:9.5%;
+  height:21.4%;
+  top:26.4%;
+  right:42.4%;
   border-radius: 10px;
   opacity:0;
 }
 .square5{
   position:absolute;
-  width:345px;
-  height:125px;
-  top:57px;
-  right:-234.5px;
+  width:24.3%;
+  height:17.2%;
+  top:8%;
+  right:1.2%;
   background-color: rgb(212, 235, 242);
   border-radius: 10px;
   opacity:0;
 }
 .square6{
   position:absolute;
-  width:175px;
-  height:125px;
-  top:57px;
-  right:130.5px;
+  width:12.4%;
+  height:17.2%;
+  top:8%;
+  right:26.9%;
   background-color: rgb(88, 24, 207);
   border-radius: 10px;
   opacity:0;
 }
 .pic3{
   position:absolute;
-  width:175px;
-  height:130px;
-  top:57px;
-  right:130.5px;
+  width:12.4%;
+  height:17.2%;
+  top:8.6%;
+  right:26.9%;
   border-radius: 10px;
   opacity:0;
 }
@@ -420,60 +422,60 @@ hr{
 } */
 .leftcol1{
   position:absolute;
-  width:50px;
-  height:145px;
+  width:3.5%;
+  height:20%;
   top:342px;
-  right:-109.5px;
+  right:9.8%;
   background-color: rgb(255,215,0);
   border-radius: 10px;
   opacity:0;
 }
 .leftcol2{
   position:absolute;
-  width:120px;
-  height:40px;
-  top:342px;
-  right:-234.5px;
+  width:8%;
+  height:5.4%;
+  top:47.6%;
+  right:1.12%;
   background-color: rgb(255,215,0);
   border-radius: 10px;
   opacity:0;
 }
 .leftcol3{
   position:absolute;
-  width:120px;
-  height:41px;
-  top:392px;
-  right:-234.5px;
+  width:8%;
+  height:5.4%;
+  top:54.8%;
+  right:1.12%;
   background-color: rgb(255,215,0);
   border-radius: 10px;
   opacity:0;
 }
 .leftcol4{
   position:absolute;
-  width:120px;
-  height:40px;
-  top:447px;
-  right:-234.5px;
+  width:8%;
+  height:5.4%;
+  top:62%;
+  right:1.12%;
   background-color: rgb(255,215,0);
   border-radius: 10px;
   opacity:0;
 }
 .square2{
   position:absolute;
-  width:145px;
-  height:128px;
-  top:357px;
-  right:345.5px;
+  width:10.5%;
+  height:17.6%;
+  top:50%;
+  right:42%;
   background-color: rgb(212, 235, 242);
   border-radius: 10px;
   opacity:0;
 }
 .pic2{
   position:absolute;
-  width:135px;
-  height:125px;
-  top:357px;
-  right:350.5px;
+  width:9.5%;
+  height:17.6%;
+  top:50.2%;
+  right:42.4%;
   background-color: rgb(212, 235, 242);
   border-radius: 10px;
   opacity:0;
@@ -491,10 +493,10 @@ hr{
 } */
 .circle2{
   position:absolute;
-  width:122px;
-  height:122px;
-  top:502px;
-  right:355.5px;
+  width:8.75%;
+  height:16.5%;
+  top:69.4%;
+  right:42.7%;
   border-radius: 200px;
   background-color: rgb(212, 235, 242);
   opacity:0;
@@ -502,29 +504,29 @@ hr{
 }
 .square3{
   position:absolute;
-  width:360px;
-  height:122px;
-  top:502px;
-  right:-29.5px;
+  width:25.5%;
+  height:17%;
+  top:69.5%;
+  right:15.5%;
   border-radius: 10px;
   background-color: rgb(212, 235, 242);
   opacity:0;
 }
 .headerimg1{
   position:absolute;
-  width:175px;
-  height:133px;
-  top:199px;
-  right:-234.5px;
+  width:12.2%;
+  height:18%;
+  top:69.2%;
+  right:1%;
   border-radius: 5px;
   opacity:0;
 }
 .headerimg2{
   position:absolute;
-  width:175px;
-  height:133px;
-  top:502px;
-  right:-234.5px;
+  width:12.2%;
+  height:18%;
+  top:28.2%;
+  right:1.2%;
   border-radius: 5px;
   opacity:0;
 }
@@ -554,37 +556,36 @@ hr{
 
 .railway-logo{
   position: absolute;
-  top:211px;
-  left:-195px;
-  height:111px;
-  width:111px;
+  top:29%;
+  left:4%;
+  height:15.4%;
+  width:8%;
   opacity:0;
 }
 .text-heading{
   position: absolute;
-  top:226px;
-  left:-69px;
+  top:31.4%;
+  left:13%;
   font-weight:600;
   color: #00306e;
-  font-size:45px;
-  height:70px;
+  font-size:2.8em;
   opacity: 0;
 }
 .text{
   position: absolute;
-  top:330.5px;
-  left:-194.5px;
-  width:525px;
-  font-size:16px;
+  top:46%;
+  left:4%;
+  width:39%;
+  font-size:1em;
   font-weight:400;
   color: #00306e;
   opacity: 0;
 }
 .moreinfo{
   position: absolute;
-  top:430.5px;
-  left:-194.5px;
-  font-size:25px;
+  top:60%;
+  left:4%;
+  font-size:1.9em;
   font-weight:400;
   color: #0d4083;
   opacity:0;
