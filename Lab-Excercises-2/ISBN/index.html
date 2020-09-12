@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+
+    <title>ISBN Validation</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"> </script>
+
+</head>
+
+<body>
+    <div style="margin-bottom:10px;" class="col-sm-12 title">
+        <h2>Validate ISBN Number</h2>
+    </div>
+        <div class="formGroup">
+            <label class="label" for="usename" style="margin-left:0.5%;font-size:1.05em;font-weight:550;">
+               ISBN Number
+            </label>
+            <input type="text" class="inputFirst" id="usename" name="usename" />
+            <button class="button" id="test" style="margin-left:5px;width:130px">
+                Validate ISBN
+            </button>
+        </div>
+    <div id="result" style="margin-left:0.5%;margin-top:1%;font-size:1.15em;font-weight:550;"></div>
+
+    <div id="result" style="margin-left:0.5%;margin-top:4%;font-size:0.9em;font-weight:400;">
+    <h3>Rules for validation:</h3>
+    <ol>
+        <li>ISBN Number can be of length 10 or 13</li>
+        <li>ISBN number of lenght 13 can only contain numbers</li>
+        <li>ISBN number of lenght 10 can end with an X</li>
+        <li>ISBN number of lenght 10 is only valid if the summation of each number of ISBN multiplied by its position(from right to left) is divisible by 11</li>
+        <li>ISBN number of lenght 13 is only valid if the summation of each number of ISBN multiplied 3(if position is odd) or 1(if position is even)(position 
+            starts from right) is divisible by 10</li>
+        <li style="font-weight:bold;"> An API call using Google Books is added at the end to find the details of the bool</li>
+    </ol>
+    </div>    
+</body>
+</html>
